@@ -15,11 +15,11 @@ The basic concept here involves using Node.js, specifically the npm package "loc
 
 # How to Use
 
-## Step 1: go to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) and select the notebook which fits the type of your project
-## Step 2: after opening any of the sample notebooks and going through each step you'll eventually find the following line:
+### Step 1: go to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) and select the notebook which fits the type of your project
+### Step 2: after opening any of the sample notebooks and going through each step you'll eventually find the following line:
 ![where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
-## Make sure to copy the IP like in the above screenshot 
-## Step 3: after clicking on the link of the APP you will be greeted with a page before getting directed to the main page to get directed to the main page paste the copied Global IP address like so.
+Make sure to copy the IP like in the above screenshot 
+### Step 3: after clicking on the link of the APP you will be greeted with a page before getting directed to the main page to get directed to the main page paste the copied Global IP address like so.
 ![Where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
 
 
