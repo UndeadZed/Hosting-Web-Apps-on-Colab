@@ -1,56 +1,43 @@
-# Hosting-Web-Apps-on-Google-Colab
-Using Node.js in Colab Notebooks to deploy different kinds of web apps temporarily for debugging and testing Purposes
+# Hosting Web Apps on Google Colab
 
-# Motivation
+## Overview
+The project aims to provide a convenient method for testing AI-powered web apps before deployment using Google Colab Notebooks, without the need to upgrade hardware or utilize expensive cloud services.
 
-I wanted to make an easy way to test AI powered webapps before deployment without upgrading my hardware or using expensive cloud services
+## Motivation
+The motivation behind this initiative stemmed from the need to create a straightforward approach for debugging and testing purposes without substantial cost or infrastructure updates.
 
-# Requirements
+## Requirements
+The existing examples provided fulfill most of the project's requirements, providing a strong foundation for further development.
 
-All of the currently available examples are basic examples so most of the requirements are already met in the examples
+## How it Works
+Utilizing Node.js, with a focus on the npm package "localtunnel," in conjunction with other npm packages such as http-server, enables the creation of a straightforward, zero-configuration command-line HTTP server for serving static files or frameworks like Django or Streamlit. This environment allows users to serve and share web applications globally from Google Colab, a Jupyter notebook environment hosted on the Google Cloud platform, with the added benefit of access to free GPUs for more advanced AI-powered web applications.
 
-# How it works
+## Getting Started
+### Step 1
+Navigate to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) and select the notebook that aligns with your project type.
+### Step 2
+After opening any of the sample notebooks and following the outlined instructions, locate the line:
+![Screenshot displaying where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
+Ensure to copy the IP as depicted in the above screenshot.
+### Step 3
+Upon clicking on the APP link, you will encounter a preliminary page before being directed to the main page. To proceed to the main page, paste the previously copied Global IP address in the specified location:
+![Screenshot indicating where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
 
-The basic concept here involves using Node.js, specifically the npm package "localtunnel," alongside other npm packages such as http-server. This setup creates a simple, zero-configuration command-line HTTP server for serving static files or frameworks such as Django or Streamlit. It allows users to serve and share web applications with the world from Google Colab, a Jupyter notebook environment hosted on the Google Cloud platform. Google Colab provides a browser-based interface for writing and executing Python code and also offers access to free GPUs, which is beneficial for more sophisticated AI-powered web applications.
+## Screenshots
+### Static Website Sample Preview
+![Preview of the static website example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/basicWebappPreview.png)
 
-# How to Use
+### Django Sample Preview
+![Preview of the Django example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/DjangoPreview.png)
 
-### Step 1: go to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) and select the notebook which fits the type of your project
-### Step 2: after opening any of the sample notebooks and going through each step you'll eventually find the following line:
-![where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
-Make sure to copy the IP like in the above screenshot 
-### Step 3: after clicking on the link of the APP you will be greeted with a page before getting directed to the main page to get directed to the main page paste the copied Global IP address like so.
-![Where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
+### Streamlit Sample Preview
+![Preview of the Streamlit example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/StreamlitPreview.png)
 
+## Credits
+Special thanks to [FahimFBA](https://github.com/FahimFBA) for contributing to one of the example projects.
 
-# Screenshots
-## Static website Sample Preview:
-![Static website example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/basicWebappPreview.png)
+## Limitations
+At present, no examples linked to Google Drive have been created, as the current samples primarily focus on basic scenarios.
 
-## Django Sample preview:
-![Static website example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/DjangoPreview.png)
-
-## Streamlit Sample Preview:
-![Static website example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/StreamlitPreview.png)
-
-
-
-# Credits
-
-Big credit to [FahimFBA](https://github.com/FahimFBA) whom we used his project in one of the examples.
-
-
-# Limitations
-No Google drive linked examples are made yet since all the current examples are just basic examples
-
-# What's new
-Simple Python Django implementation example notebook in Colab
-
-# Future updates
-
-I will be focusing on adding usable example which use different front and backend technologies to make AI powered APPs
-
-# Notes
-feel free to contribute to this repo and add additional examples
-
-
+## What's New
+Addition of a simple Python Django implementation example notebook in Colab.
