@@ -18,7 +18,7 @@ Navigate to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tre
 ### Step 2
 After opening any of the sample notebooks and following the outlined instructions, locate the line:
 ![Screenshot displaying where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
-Ensure to copy the IP as depicted in the above screenshot.
+<br>Ensure to copy the IP as depicted in the above screenshot.
 ### Step 3
 Upon clicking on the APP link, you will encounter a preliminary page before being directed to the main page. To proceed to the main page, paste the previously copied Global IP address in the specified location:
 ![Screenshot indicating where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
