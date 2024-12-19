@@ -1,29 +1,36 @@
 # Hosting Web Apps on Google Colab
 
 ## Overview
-The project aims to provide a convenient method for testing AI-powered web apps before deployment using Google Colab Notebooks, without the need to upgrade hardware or utilize expensive cloud services.
+This project provides a convenient and cost-effective solution for testing AI-powered web applications using Google Colab Notebooks. It eliminates the need for hardware upgrades or expensive cloud services, making it accessible for developers and researchers.
 
 ## Motivation
-The motivation behind this initiative stemmed from the need to create a straightforward approach for debugging and testing purposes without substantial cost or infrastructure updates.
+The primary motivation behind this initiative was to develop a simple and affordable approach for debugging and testing web applications. By leveraging Google Colab, users can sidestep significant infrastructure investments while retaining the flexibility and power needed for development.
 
 ## Requirements
-The existing examples provided fulfill most of the project's requirements, providing a strong foundation for further development.
+The provided examples meet the essential requirements of the project, offering a robust starting point for further enhancements and customization.
 
-## How it Works
-Utilizing Node.js, with a focus on the npm package "localtunnel," in conjunction with other npm packages such as http-server, enables the creation of a straightforward, zero-configuration command-line HTTP server for serving static files or frameworks like Django or Streamlit. This environment allows users to serve and share web applications globally from Google Colab, a Jupyter notebook environment hosted on the Google Cloud platform, with the added benefit of access to free GPUs for more advanced AI-powered web applications.
+## How It Works
+The project utilizes Node.js, particularly the npm package "localtunnel" (now updated to use ngrok for improved reliability), along with other npm packages such as http-server. This setup facilitates the creation of a zero-configuration command-line HTTP server, suitable for serving static files or frameworks like Django or Streamlit. This environment enables users to serve and share web applications globally from Google Colab—a Jupyter notebook platform hosted on Google Cloud—while leveraging free GPUs for advanced AI-powered applications.
 
 ## Getting Started
+
 ### Step 1
-Navigate to [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) and select the notebook that aligns with your project type.
+Navigate to the [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) directory and select the notebook that aligns with your project type.
+
 ### Step 2
-After opening any of the sample notebooks and following the outlined instructions, locate the line:
+Open the chosen sample notebook and follow the provided instructions. Locate the following line:
+
 ![Screenshot displaying where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
-<br>Ensure to copy the IP as depicted in the above screenshot.
+
+Copy the Global IP as shown in the screenshot.
+
 ### Step 3
-Upon clicking on the APP link, you will encounter a preliminary page before being directed to the main page. To proceed to the main page, paste the previously copied Global IP address in the specified location:
+Click on the APP link provided in the notebook. A preliminary page will load before redirecting to the main page. Paste the copied Global IP address into the specified field as shown:
+
 ![Screenshot indicating where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
 
 ## Screenshots
+
 ### Static Website Sample Preview
 ![Preview of the static website example](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/basicWebappPreview.png)
 
@@ -37,7 +44,9 @@ Upon clicking on the APP link, you will encounter a preliminary page before bein
 Special thanks to [FahimFBA](https://github.com/FahimFBA) for contributing to one of the example projects.
 
 ## Limitations
-At present, no examples linked to Google Drive have been created, as the current samples primarily focus on basic scenarios.
+This project is primarily designed for simple development purposes. Notable limitations include:
+1. **Reliability:** Localtunnel’s lack of maintenance prompted a shift to ngrok, which offers improved performance but may still encounter occasional issues.
+2. **Complexity:** Current examples are limited to basic use cases, with more advanced examples under development.
 
 ## What's New
-Addition of a simple Python Django implementation example notebook in Colab.
+All basic notebooks have been updated to use ngrok instead of localtunnel, addressing long-standing reliability issues. The notebooks are now fully up-to-date as of **December 19, 2024**.
