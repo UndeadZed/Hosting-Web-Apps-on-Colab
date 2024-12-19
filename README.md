@@ -14,17 +14,29 @@ The project utilizes Node.js, particularly the npm package "localtunnel" (now up
 
 ## Getting Started
 
-### Step 1
+### Step 1: Select a Sample Notebook
 Navigate to the [Samples](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/tree/main/samples) directory and select the notebook that aligns with your project type.
 
-### Step 2
-Open the chosen sample notebook and follow the provided instructions. Locate the following line:
+### Step 2: Create an ngrok Account
+1. Visit the [ngrok website](https://ngrok.com/) and sign up for a free account.
+2. Once registered, log in to your ngrok dashboard.
+3. Locate your authentication token in the dashboard under the "Setup & Installation" section.
+4. Copy the token to your clipboard for use in the Colab notebook.
+
+### Step 3: Configure the Notebook
+1. Open the chosen sample notebook and follow the provided instructions.
+2. Locate the cell where you need to input the ngrok authentication token.
+3. Paste your copied token into the `ngrok_token` variable.
+4. Run the cell to initialize ngrok.
+
+### Step 4: Copy the Global IP (in case you're using localtunnel)
+After setting up ngrok, locate the following line:
 
 ![Screenshot displaying where to find Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_screeshot.png)
 
 Copy the Global IP as shown in the screenshot.
 
-### Step 3
+### Step 5: Access the Application (in case you're using localtunnel)
 Click on the APP link provided in the notebook. A preliminary page will load before redirecting to the main page. Paste the copied Global IP address into the specified field as shown:
 
 ![Screenshot indicating where to use Global IP](https://github.com/UndeadZed/Hosting-Web-Apps-on-Colab/blob/main/Screenshots/IP_usage_screenshot.png)
